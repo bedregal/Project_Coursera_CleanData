@@ -1,5 +1,6 @@
 
 library(reshape2)
+library(data.table)
 
 #Reading Data ZIP file
 datafile <- "getdata-projectfiles-UCI HAR Dataset.zip"
@@ -61,6 +62,10 @@ featMelt <- melt(feat_all, id=c("Subject", "Activity"),
                  measure.vars=as.character(flg_Feat[flg_Feat_select,2]))
 
 feat_tidy <- dcast(featMelt, Subject + Activity ~ variable, mean)
+
+# Changing average feature names (columns) in data frame.
+setnames(feat_tidy, old=names(feat_tidy), new=c("Subject", "Activity", 
+                paste("Avg_", names(feat_tidy[3:ncol(feat_tidy)]), sep="")))
 
 # Saving result in txt file
 write.table(feat_tidy, file="tidy_dataset.txt", row.name=F)
