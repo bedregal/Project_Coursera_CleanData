@@ -31,54 +31,84 @@ As a general remark, besides the variables "Subject" and "Activity", all the oth
 
 
 Subject : Code number identifying each of the 30 subjects used for these measurements.
+
 Activity : Each of the 6 different activities performed by the subjects: Walking, walkimng
             upstairs, walking downstairs, sitting, standing up and laying down.
+            
 Avg_tBodyAcc-mean()-XYZ : Mean body acceleration signal.
+
 Avg_tGravityAcc-mean()-XYZ : Mean gravity acceleration signal.
+
 Avg_tBodyAccJerk-mean()-XYZ : Mean body acceleration Jerk signal.
+
 Avg_tBodyGyroJerk-mean()-XYZ : Mean body angular velocity Jerk signal.
+
 Avg_tBodyAccMag-mean() : Mean magnitude of three-dimensional Body Acceleration using
                           Euclidean norm.
+                          
 Avg_tGravityAccMag-mean() : Mean magnitude of three-dimensional Gravity Acceleration using
                              Euclidean norm.
+                             
 Avg_tBodyAccJerkMag-mean() : Mean magnitude of three-dimensional Body Acceleration Jerk
                               signal using Euclidean norm.
+                          
 Avg_tBodyGyroMag-mean() : Mean magnitude of three-dimensional Body angular velocity using
                            Euclidean norm.
+                           
 Avg_tBodyGyroJerkMag-mean() : Mean magnitude of three-dimensional Body angular velocity 
                                Jerk signal using Euclidean norm.
+                               
 Avg_fBodyAcc-meanFreq()-XYZ : Mean body acceleration signal in FREQUENCY domain.
+
 Avg_fBodyAccJerk-meanFreq()-XYZ : Mean body acceleration Jerk signal in FREQUENCY domain.
+
 Avg_fBodyGyro-meanFreq()-XYZ : Mean body angular velocity in FREQUENCY domain.
+
 Avg_fBodyGyroJerk-meanFreq()-XYZ : Mean body angular velocity Jerk signal in FREQUENCY 
                                     domain.
+                                    
 Avg_ftBodyGyroMag-meanFreq() : Mean magnitude of three-dimensional Body angular velocity
                                 using Euclidean norm in FREQUENCY domain.
+                                
 Avg_fBodyGyroJerkMag : Mean magnitude of three-dimensional Body angular velocity Jerk 
                         signal using Euclidean norm in FREQUENCY domain.
 
 
 Avg_tBodyAcc-std()-XYZ : Std body acceleration signal.
+
 Avg_tGravityAcc-std()-XYZ : Std gravity acceleration signal.
+
 Avg_tBodyAccJerk-std()-XYZ : Std body acceleration Jerk signal.
+
 Avg_tBodyGyroJerk-std()-XYZ : Std body angular velocity Jerk signal.
+
 Avg_tBodyAccMag-std() : Std magnitude of three-dimensional Body Acceleration using
                           Euclidean norm.
+                          
 Avg_tGravityAccMag-std() : Std magnitude of three-dimensional Gravity Acceleration using
                              Euclidean norm.
+                             
 Avg_tBodyAccJerkMag-std() : Std magnitude of three-dimensional Body Acceleration Jerk
                               signal using Euclidean norm.
+                              
 Avg_tBodyGyroMag-std() : Std magnitude of three-dimensional Body angular velocity using
                            Euclidean norm.
+                           
 Avg_tBodyGyroJerkMag-std() : Std magnitude of three-dimensional Body angular velocity 
                                Jerk signal using Euclidean norm.
+                               
 Avg_fBodyAcc-stdFreq()-XYZ : Std body acceleration signal in FREQUENCY domain.
+
 Avg_fBodyAccJerk-stdFreq()-XYZ : Std body acceleration Jerk signal in FREQUENCY domain.
+
 Avg_fBodyGyro-stdFreq()-XYZ : Std body angular velocity in FREQUENCY domain.
+
 Avg_fBodyGyroJerk-stdFreq()-XYZ : Std body angular velocity Jerk signal in FREQUENCY 
                                     domain.
+                                    
 Avg_ftBodyGyroMag-stdFreq() : Std magnitude of three-dimensional Body angular velocity
                                 using Euclidean norm in FREQUENCY domain.
+                                
 Avg_fBodyGyroJerkMag : Std magnitude of three-dimensional Body angular velocity Jerk 
                         signal using Euclidean norm in FREQUENCY domain.
 
